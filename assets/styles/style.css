@@ -29,7 +29,8 @@ body{
     width: 100%;
     display:flex;
     justify-content: space-between;
-    
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
@@ -80,6 +81,16 @@ section {
     color: white;
 }
 
+@media only screen and (max-width: 800px) {
+    .time-box{
+        font-size: 5rem;
+    }
+
+    .time-text{
+        font-size: 1.5rem;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .time-box{
         font-size: 4rem;
@@ -89,7 +100,7 @@ section {
         font-size: 1rem;
     }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
     .time-box{
         font-size: 2rem;
     }
@@ -103,7 +114,9 @@ section {
     }
 
     #app-container{
-        margin: 2%;
+        margin: auto;
+        width: 90vw;
+
     }
     body{
         display:flex;
